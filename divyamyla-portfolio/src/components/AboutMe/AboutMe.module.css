@@ -1,0 +1,120 @@
+.about {
+
+    padding: 70px 10%;
+
+}
+
+
+.content {
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:6px;
+
+}
+
+
+.text {
+
+    max-width:700px;
+
+}
+
+
+.command {
+
+    color:#39ff14;
+    font-family:monospace;
+
+}
+
+
+.about h2 {
+
+    font-size:2.5rem;
+    color:white;
+
+}
+
+
+.text p:last-child {
+
+    color:#c9d1d9;
+    line-height:1.8;
+
+}
+
+
+/* IMAGE */
+
+.imageContainer {
+
+    position:relative;
+
+}
+
+
+.profile {
+
+    width:280px;
+    height:280px;
+
+    object-fit:cover;
+
+    image-rendering:pixelated;
+
+    border-radius:10px;
+
+    border:3px solid #39ff14;
+
+    filter:
+        contrast(120%)
+        brightness(90%);
+
+    animation: pixelLoad 1.5s ease;
+
+}
+
+.command {
+    color:#39ff14;
+    font-family:monospace;
+    font-size:1.1rem;     /* same as .logo */
+}
+
+
+/* pixel loading effect */
+
+@keyframes pixelLoad {
+
+    0% {
+
+        opacity:0;
+        filter:
+            blur(20px)
+            contrast(200%);
+
+        transform:scale(0.8);
+
+    }
+
+
+    50% {
+
+        opacity:0.5;
+
+    }
+
+
+    100% {
+
+        opacity:1;
+        filter:
+            contrast(120%)
+            brightness(90%);
+
+        transform:scale(1);
+
+    }
+
+}
