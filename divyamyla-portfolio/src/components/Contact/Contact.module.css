@@ -15,27 +15,53 @@
 .headingRow {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
     padding-left: 10%;
-    gap: 25px;      /* Space between heading and icons */
+    padding-right: 10%;
+    box-sizing: border-box;
 }
 
 .letsconnect {
     color: white;
-    font-size: 3.8rem;   /* Increased from 2.5rem */
-    font-weight: bold;
+    font-size: 3.8rem;
     margin: 0;
-    line-height: 1;
 }
-
 .iconGroup {
     display: flex;
-    gap: 18px;      /* Space between icons */
+    gap: 18px;
+}
+
+.iconBox {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1a1a1a;      /* box colour */
+    border: 2px solid #39ff14;      /* optional border */
+
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: #111;
+    border: 1px solid #39ff14;
+    border-radius: 14px;
+    box-shadow: 0 0 10px rgba(57,255,20,0.2);
+    overflow: hidden;        /* clips image to rounded corners */
+}
+
+.iconBox:hover {
+    background-color: #39ff14;
+    transform: translateY(-3px);
+    box-shadow: 0 0 18px rgba(57,255,20,0.5);
 }
 
 .icon {
-    width: 58px;    /* Increased from 45px */
-    height: 58px;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .contact a {
