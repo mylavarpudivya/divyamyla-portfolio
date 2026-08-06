@@ -1,0 +1,47 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.command {
+    color: #39ff14;
+    font-family: monospace;
+    font-size: 1.1rem;
+    padding: 15px;
+    padding-left: 10%;
+
+ }
+.headingRow {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    gap: 25px;      /* Space between heading and icons */
+}
+
+.letsconnect {
+    color: white;
+    font-size: 3.8rem;   /* Increased from 2.5rem */
+    font-weight: bold;
+    margin: 0;
+    line-height: 1;
+}
+
+.iconGroup {
+    display: flex;
+    gap: 18px;      /* Space between icons */
+}
+
+.icon {
+    width: 58px;    /* Increased from 45px */
+    height: 58px;
+    object-fit: contain;
+}
+
+.contact a {
+    color: #58a6ff;
+}
+
+.contact a:hover {
+    color: #39ff14;
+}

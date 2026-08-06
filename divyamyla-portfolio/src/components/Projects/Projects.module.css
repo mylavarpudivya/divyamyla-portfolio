@@ -1,0 +1,60 @@
+.projects{
+
+    display:flex;
+
+    flex-direction:column;
+}
+
+.projects p{
+
+    color:#39ff14;
+}
+
+.card{
+
+    background:#161b22;
+
+    border:1px solid #30363d;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#39ff14;
+
+}
+
+.card h3{
+
+    color:#58a6ff;
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    color:#c9d1d9;
+
+}
+
+
+.command {
+
+    color:#39ff14;
+    font-family:monospace;
+    padding-left: 10%;
+    font-size:1.1rem;
+    padding: 15px;
+    padding-left: 10%;
+}

@@ -1,0 +1,64 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.command {
+    color: #39ff14;
+    font-family: monospace;
+    font-size: 1.1rem;
+    padding-left: 10%;
+}
+
+
+/* REMOVE DEFAULT LIST STYLING */
+.tree ul {
+    list-style: none;
+    padding-left: 20px;
+    position: relative;
+}
+
+/* CONNECTING LINES */
+.tree ul li {
+    position: relative;
+    padding: 6px 0 6px 20px;
+}
+
+/* Vertical line */
+.tree ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #39ff14;
+    opacity: 0.4;
+}
+
+/* Horizontal branch */
+.tree ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 14px;
+    width: 12px;
+    height: 1px;
+    background: #39ff14;
+    opacity: 0.7;
+}
+
+/* Glow on hover */
+.tree ul li:hover {
+    color: #39ff14;
+    text-shadow: 0 0 6px #39ff  14;
+}
+
+/* Animated branch glow */
+.tree ul li:hover::after,
+.tree ul li:hover::before {
+    background: #39ff14;
+    opacity: 1;
+    box-shadow: 0 0 6px #39ff14;
+}

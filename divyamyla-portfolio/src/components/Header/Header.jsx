@@ -16,8 +16,6 @@ function Header() {
 
         <a href="#projects">cd projects</a>
 
-        <a href="#experience">cd experience</a>
-
         <a href="#contact">ssh contact</a>
 
       </nav>
