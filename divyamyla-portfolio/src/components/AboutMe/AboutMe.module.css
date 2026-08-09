@@ -1,5 +1,6 @@
 .about {
     padding: 70px 10%;
+    scroll-margin-top: 80px;
 }
 
 
@@ -115,4 +116,22 @@
 
     }
 
+}
+
+.cvButton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+
+    color: #39ff14;
+    border: 1px solid #39ff14;
+    border-radius: 8px;
+
+    font-family: monospace;
+    text-decoration: none;
+}
+
+.cvButton:hover {
+    background-color: #39ff14;
+    color: black;
 }

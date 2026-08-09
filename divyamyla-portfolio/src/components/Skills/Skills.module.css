@@ -1,6 +1,7 @@
 .skills {
     display: flex;
     flex-direction: column;
+    scroll-margin-top: 80px;
 }
 
 .command {

@@ -75,6 +75,17 @@ function Projects(){
                         </p>
 
                     </div>
+                    <div className={styles.card}>
+
+                        <h3>Cybersecurity Portfolio Website</h3>
+
+                        <p>
+                            Built a cybersecurity portfolio website using React and Vite with a Linux terminal-inspired interface.
+                            Implemented responsive components, interactive elements, and Git-based version control.
+
+                        </p>
+
+                    </div>
 
             </div>
 

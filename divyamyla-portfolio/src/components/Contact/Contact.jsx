@@ -19,15 +19,23 @@ function Contact() {
                 </h2>
 
                 <div className={styles.iconGroup}>
-                    <div className={styles.iconBox}>
+                    <a
+                        href="https://www.linkedin.com/in/divya-mylavarpu"
+                        target="_blank"
+                        className={styles.iconBox}>
                         <img src={linkedinIcon} alt="LinkedIn" className={styles.icon} />
-                    </div>
-                    <div className={styles.iconBox}>
+                    </a>
+                    <a
+                        href="https://github.com/mylavarpudivya"
+                        target="_blank"
+                        className={styles.iconBox}>
                         <img src={githubIcon} alt="GitHub" className={styles.icon} />
-                    </div>
-                    <div className={styles.iconBox}>
+                    </a>
+                    <a
+                        href="mailto:mylavarpudivya@gmail.com"
+                        className={styles.iconBox}>
                         <img src={gmailIcon} alt="Gmail" className={styles.icon} />
-                    </div>
+                    </a>
                 </div>
 
 

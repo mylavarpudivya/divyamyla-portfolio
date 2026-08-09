@@ -1,5 +1,6 @@
 import styles from "./AboutMe.module.css";
-import profilePic from "../../assets/hero.png";
+import profilePic from "../../assets/headshot.jpg";
+import cv from '../../assets/DivyaMylavarpuCV.pdf';
 
 function AboutMe(){
 
@@ -26,6 +27,14 @@ function AboutMe(){
                         for secure software development, Linux systems,
                         vulnerability assessment and ethical hacking.
                     </p>
+                     <a
+                         href={cv}
+                         target="_blank"
+                         rel="noopener noreferrer"
+                         className={styles.cvButton}
+                     >
+                         View CV
+                     </a>
 
                 </div>
 
